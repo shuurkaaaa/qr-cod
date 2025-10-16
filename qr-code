@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>qr code component</title>
+     <link rel="stylesheet" href="qr.css">
+     <link href="https://fonts.google.com/specimen/Outfit"
+
+</head>
+<body>
+     <main class="card">
+          <img src="pictures/image-qr-code.png" alt="qr code" class="qr-code"> 
+          <h1>Improve your front-end skills by building projects</h1>
+          <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+
+     </main>
+</body>
+</html>
+
+*{
+     box-sizing: border-box;
+     margin: 0%;
+     padding: 0;
+
+}
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     font-family: 'Courier New', Courier, monospace;
+     background-color: hsl(212, 45%, 89%);
+}
+.card{
+     background-color: white;
+     border-radius: 12px;
+     padding: 20px;
+     width: 320px;
+     height: 460px;
+     text-align: center;
+     box-shadow: 0 10px 20px rgba(0,0,0,1);
+}
+h1{
+     font-size: 1rem;
+     font-weight: 700;
+     color: hsl(218, 44%, 22%);
+     margin: 10px 10px;
+}
+.qr-code{
+     width: 100%;
+     border-radius: 10%;
+     font-weight: 400;
+}
+p{
+     font-size: 15px;
+     margin-bottom: 20px;
+     color: hsl(216, 15%, 48%);
+
+}
+{
+
+@media (max-width: 375px)
+ {
+  .card {
+    width: 90%;}}
